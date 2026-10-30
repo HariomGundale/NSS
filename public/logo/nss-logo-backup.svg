@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Circular text paths -->
+    <path id="text-arc-top" d="M 60,250 A 190,190 0 0,1 440,250" fill="none" />
+    <path id="text-arc-bottom" d="M 440,250 A 190,190 0 0,1 60,250" fill="none" />
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Navy Blue Ring -->
+  <circle cx="250" cy="250" r="240" fill="#0B1A30" stroke="#FFFFFF" stroke-width="6" />
+  <circle cx="250" cy="250" r="236" fill="none" stroke="#EA580C" stroke-width="3" />
+
+  <!-- Outer Ring Text (Devanagari & English) -->
+  <text font-family="'Segoe UI', Roboto, 'Noto Sans Devanagari', sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="3.5">
+    <textPath href="#text-arc-top" startOffset="50%" text-anchor="middle">
+      राष्ट्रीय सेवा योजना
+    </textPath>
+  </text>
+  
+  <text font-family="'Segoe UI', Roboto, 'Arial Black', sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" letter-spacing="2.5">
+    <textPath href="#text-arc-bottom" startOffset="50%" text-anchor="middle">
+      NATIONAL SERVICE SCHEME
+    </textPath>
+  </text>
+
+  <!-- Gold/Orange Accent Stars/Dots on Ring -->
+  <circle cx="56" cy="250" r="8" fill="#EA580C" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="444" cy="250" r="8" fill="#EA580C" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Inner Circle Border -->
+  <circle cx="250" cy="250" r="160" fill="#FFFFFF" stroke="#0B1A30" stroke-width="6" />
+
+  <!-- Konark Wheel Outer Rim -->
+  <circle cx="250" cy="250" r="148" fill="#D9381E" stroke="#8B1804" stroke-width="3" />
+  <circle cx="250" cy="250" r="140" fill="#FFFFFF" />
+
+  <!-- 8 Main Spokes (Prahars) of Konark Wheel -->
+  <g id="spokes">
+    <!-- Spoke 1 (0 deg) -->
+    <path d="M 240,250 L 235,115 L 250,110 L 265,115 L 260,250 Z" fill="#D9381E" />
+    <circle cx="250" cy="140" r="7" fill="#FFFFFF" stroke="#8B1804" stroke-width="2"/>
+    <circle cx="250" cy="180" r="5" fill="#FFFFFF"/>
+    
+    <!-- Spoke 2 (45 deg) -->
+    <g transform="rotate(45 250 250)">
+      <path d="M 240,250 L 235,115 L 250,110 L 265,115 L 260,250 Z" fill="#D9381E" />
+      <circle cx="250" cy="140" r="7" fill="#FFFFFF" stroke="#8B1804" stroke-width="2"/>
+      <circle cx="250" cy="180" r="5" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Spoke 3 (90 deg) -->
+    <g transform="rotate(90 250 250)">
+      <path d="M 240,250 L 235,115 L 250,110 L 265,115 L 260,250 Z" fill="#D9381E" />
+      <circle cx="250" cy="140" r="7" fill="#FFFFFF" stroke="#8B1804" stroke-width="2"/>
+      <circle cx="250" cy="180" r="5" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Spoke 4 (135 deg) -->
+    <g transform="rotate(135 250 250)">
+      <path d="M 240,250 L 235,115 L 250,110 L 265,115 L 260,250 Z" fill="#D9381E" />
+      <circle cx="250" cy="140" r="7" fill="#FFFFFF" stroke="#8B1804" stroke-width="2"/>
+      <circle cx="250" cy="180" r="5" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Spoke 5 (180 deg) -->
+    <g transform="rotate(180 250 250)">
+      <path d="M 240,250 L 235,115 L 250,110 L 265,115 L 260,250 Z" fill="#D9381E" />
+      <circle cx="250" cy="140" r="7" fill="#FFFFFF" stroke="#8B1804" stroke-width="2"/>
+      <circle cx="250" cy="180" r="5" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Spoke 6 (225 deg) -->
+    <g transform="rotate(225 250 250)">
+      <path d="M 240,250 L 235,115 L 250,110 L 265,115 L 260,250 Z" fill="#D9381E" />
+      <circle cx="250" cy="140" r="7" fill="#FFFFFF" stroke="#8B1804" stroke-width="2"/>
+      <circle cx="250" cy="180" r="5" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Spoke 7 (270 deg) -->
+    <g transform="rotate(270 250 250)">
+      <path d="M 240,250 L 235,115 L 250,110 L 265,115 L 260,250 Z" fill="#D9381E" />
+      <circle cx="250" cy="140" r="7" fill="#FFFFFF" stroke="#8B1804" stroke-width="2"/>
+      <circle cx="250" cy="180" r="5" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Spoke 8 (315 deg) -->
+    <g transform="rotate(315 250 250)">
+      <path d="M 240,250 L 235,115 L 250,110 L 265,115 L 260,250 Z" fill="#D9381E" />
+      <circle cx="250" cy="140" r="7" fill="#FFFFFF" stroke="#8B1804" stroke-width="2"/>
+      <circle cx="250" cy="180" r="5" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Minor Spokes (22.5 deg intervals) -->
+    <g transform="rotate(22.5 250 250)"><path d="M 246,250 L 246,120 L 254,120 L 254,250 Z" fill="#D9381E" /><circle cx="250" cy="135" r="4" fill="#FFFFFF"/></g>
+    <g transform="rotate(67.5 250 250)"><path d="M 246,250 L 246,120 L 254,120 L 254,250 Z" fill="#D9381E" /><circle cx="250" cy="135" r="4" fill="#FFFFFF"/></g>
+    <g transform="rotate(112.5 250 250)"><path d="M 246,250 L 246,120 L 254,120 L 254,250 Z" fill="#D9381E" /><circle cx="250" cy="135" r="4" fill="#FFFFFF"/></g>
+    <g transform="rotate(157.5 250 250)"><path d="M 246,250 L 246,120 L 254,120 L 254,250 Z" fill="#D9381E" /><circle cx="250" cy="135" r="4" fill="#FFFFFF"/></g>
+    <g transform="rotate(202.5 250 250)"><path d="M 246,250 L 246,120 L 254,120 L 254,250 Z" fill="#D9381E" /><circle cx="250" cy="135" r="4" fill="#FFFFFF"/></g>
+    <g transform="rotate(247.5 250 250)"><path d="M 246,250 L 246,120 L 254,120 L 254,250 Z" fill="#D9381E" /><circle cx="250" cy="135" r="4" fill="#FFFFFF"/></g>
+    <g transform="rotate(292.5 250 250)"><path d="M 246,250 L 246,120 L 254,120 L 254,250 Z" fill="#D9381E" /><circle cx="250" cy="135" r="4" fill="#FFFFFF"/></g>
+    <g transform="rotate(337.5 250 250)"><path d="M 246,250 L 246,120 L 254,120 L 254,250 Z" fill="#D9381E" /><circle cx="250" cy="135" r="4" fill="#FFFFFF"/></g>
+  </g>
+
+  <!-- Central Hub of Wheel -->
+  <circle cx="250" cy="250" r="42" fill="#0B1A30" stroke="#EA580C" stroke-width="4" />
+  <circle cx="250" cy="250" r="28" fill="#FFFFFF" />
+  <circle cx="250" cy="250" r="14" fill="#0B1A30" />
+</svg>
