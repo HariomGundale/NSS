@@ -38,3 +38,49 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
+
+/* Hero Section Animations */
+@keyframes heroFadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-28px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes heroPulseGlow {
+  0%, 100% {
+    box-shadow: 0 4px 20px -2px rgba(234, 88, 12, 0.4);
+  }
+  50% {
+    box-shadow: 0 8px 30px 2px rgba(234, 88, 12, 0.7);
+  }
+}
+
+.animate-hero-1 {
+  animation: heroFadeInLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+}
+
+.animate-hero-2 {
+  animation: heroFadeInLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.25s both;
+}
+
+.animate-hero-3 {
+  animation: heroFadeInLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.4s both;
+}
+
+.animate-hero-4 {
+  animation: heroFadeInLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.55s both;
+}
+
+.animate-hero-5 {
+  animation: heroFadeInLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.7s both;
+}
+
+.animate-hero-glow {
+  animation: heroPulseGlow 3s ease-in-out infinite;
+}
+
